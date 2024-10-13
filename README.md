@@ -23,11 +23,16 @@
    ```bash
    cd Hydra-Termux
    ```
-3. Make the script executable:
+3. Install required packages:
+   - You can quickly install all necessary packages using the provided `need.txt` file:
+     ```bash
+     pkg install $(cat need.txt)
+     ```
+4. Make the script executable:
    ```bash
    chmod +x hydra.sh
    ```
-4. Run the simulation:
+5. Run the simulation:
    ```bash
    ./hydra.sh
    ```
@@ -46,4 +51,4 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 - Special thanks to the open-source community for providing valuable resources and tools.
 
 ## Contact
-For questions or suggestions, feel free to contact me at **cyrusnike@proton.me** 
+For questions or suggestions, feel free to contact me at **cyrusnike@proton.me**
