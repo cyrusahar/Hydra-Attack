@@ -1,0 +1,8 @@
+bash
+nano
+git
+curl
+wget
+coreutils
+figlet
+toilet
